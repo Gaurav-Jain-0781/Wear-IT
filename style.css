@@ -4,11 +4,20 @@ h3,p{
 
 #two{
     color: brown;
-    font-size: 50px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: monospace;
+    text-indent: 50px;
+    word-spacing: 50px;
+    text-align: center;
 }
 
 .one{
-    color: darkgreen;
     font-family: sans-serif;
     font-variant: small-caps;
+    font-size: xx-large;
+    text-shadow: 5px 5px 5px royalblue;
+    color: #1fa1c9;
+    letter-spacing: 50px;
+    text-decoration: underline;
 }
