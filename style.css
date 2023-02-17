@@ -44,20 +44,31 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 80px;
-    background-color: rgb(204, 199, 221);
-    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.5   );
+    padding: 24px 40px;
+    background-color: orange;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.5);
+    position: fixed;
+}
+
+#logo{
+    position: absolute;
+    margin: 58px 0px 0px 0px;
+    padding: 10px 10px;
+    
 }
 
 #navbar{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 0 0 782px;
+    padding: 10px 10px;
 }
 
 #navbar li{
-    padding: 0px 20px;    
+    padding: 0px 30px;    
     list-style-type: none;
+    position: relative;
 }
 
 #navbar li a{
@@ -69,11 +80,20 @@ p{
 }
 
 #navbar li a:hover{
-    color: rgb(228, 23, 23);
-    text-decoration: underline;
+    color: white;
+}
+ 
+#navbar li a.active{
+    color: white;
 }
 
-#navbar li a.active{
-    text-decoration: underline;
-    color:rgb(228, 23, 23);
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 37%;
+    height: 2px;
+    background-color: white;
+    bottom: -4px;
+    left: 30px;
+    position: absolute;
 }
