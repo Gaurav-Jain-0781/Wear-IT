@@ -41,27 +41,24 @@ p{
 }
 
 #header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px 40px;
+    padding: 20px 40px;
     background-color: orange;
     box-shadow: 0 5px 15px rgb(0, 0, 0, 0.5);
-    position: fixed;
+    position: sticky;
+    height: 75px;
+    width: 100%;
 }
 
 #logo{
     position: absolute;
-    margin: 58px 0px 0px 0px;
-    padding: 10px 10px;
-    
+    top: 20px;
+    left: 30px;    
 }
 
 #navbar{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 0 0 0 782px;
+    justify-content: flex-end;
     padding: 10px 10px;
 }
 
@@ -90,7 +87,7 @@ p{
 #navbar li a.active::after,
 #navbar li a:hover::after{
     content: "";
-    width: 37%;
+    width: 30%;
     height: 2px;
     background-color: white;
     bottom: -4px;
