@@ -41,7 +41,10 @@ p{
 }
 
 #header{
-    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 25px;
     background-color: orange;
     box-shadow: 0 5px 15px rgb(0, 0, 0, 0.5);
     position: sticky;
@@ -50,9 +53,9 @@ p{
 }
 
 #logo{
-    position: absolute;
-    top: 20px;
-    left: 30px;    
+    position: sticky;
+    padding: 12px 12px;
+    margin: 96px 12px 12px 12px;  
 }
 
 #navbar{
@@ -70,7 +73,7 @@ p{
 
 #navbar li a{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     color: #1a1a1a;
     transition: 0.3s ease;
@@ -78,10 +81,12 @@ p{
 
 #navbar li a:hover{
     color: white;
+    font-size: 20px;
 }
  
 #navbar li a.active{
     color: white;
+
 }
 
 #navbar li a.active::after,
