@@ -33,14 +33,6 @@ p{
     font-weight: bolder;
 }
 
-.section_p1{
-    padding: 40px 80px;
-}
-
-.section_m1{
-    margin: 40px 0;
-}
-
 #header{
     display: flex;
     align-items: center;
@@ -96,8 +88,8 @@ p{
 #navbar li a:hover::after{
     content: "";
     width: 30%;
-    height: 2px;
-    background-color: white;
+    height: 3px;
+    background-color: red;
     bottom: -4px;
     left: 30px;
     position: absolute;
@@ -121,11 +113,11 @@ p{
     color: rgb(206, 54, 54);
     padding-bottom: 15px;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 #hero h1{
-    color: orange
+    color: orangered;
 }
 
 #hero button{
@@ -159,7 +151,8 @@ p{
 }
 
 #feature .fe-box:hover{
-    box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 10px 54px rgb(70, 68, 68);
+    transition: 0.6s;
 } 
 
 #feature .fe-box h6{
