@@ -216,7 +216,6 @@ p{
     padding: 10px 12px;
     border: 0px solid slategray;
     border-radius: 20px;
-    cursor: pointer;
     box-shadow: 0px 0px 2px 4px rgb(0 0 0 / 10%);
     margin: 15px 0px 15px 0px;
     transition: 0.3s ease;
@@ -243,7 +242,47 @@ p{
 
 #product1 .pro .des h3{
     color: #9e9e9e;
-    padding-top: 4px;
+    padding-top: 6px;
+}
+
+#product1 .pro .des button.colour{
+    position: absolute;
+    right: 26%;
+    bottom: 2%;
+    background-color: slategray;
+    border: 0px solid black;
+    border-radius: 100px;
+    height: 6%;
+    width: 10%;
+}
+
+#product1 .pro .des button.colour:hover{
+    background-color: grey;
+    cursor: pointer;
+    height: 8%;
+    width: 13%;
+    right: 25%;
+    bottom: 2%;
+}
+
+#product1 .pro .des button.colour2{
+    position: absolute;
+    right: 11%;
+    bottom: 2%;
+    border-radius: 100px;
+    background-color: bisque;
+    border: 0px solid black;
+    height: 6%;
+    width: 10%;
+}
+
+#product1 .pro .des button.colour2:hover{
+    background-color: bisque;
+    cursor: pointer;
+    height: 8%;
+    width: 13%;
+    right: 8%;
+    bottom: 2%;
 }
 
 #product1 .pro .des h5{
@@ -272,7 +311,7 @@ p{
     border-radius: 50px;
     border: 1px solid whitesmoke;
     position: absolute;
-    bottom: 20px;
+    bottom: 65px;
     right: 20px;
     background-color: #cdd4f8;
     color: #088178;
