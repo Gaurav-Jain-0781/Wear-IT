@@ -200,6 +200,13 @@ p{
     margin: 50px;
 }
 
+#product1 .product_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
 #product1 h2{
     color: #088178;
     font-family: cursive;
@@ -305,19 +312,16 @@ p{
 }
 
 #product1 .pro .cart{
-    height: 50px;
-    width: 50px;
+    height: 11%;
+    width: 19%;
     line-height: 50px;
     border-radius: 50px;
     border: 1px solid whitesmoke;
     position: absolute;
-    bottom: 65px;
-    right: 20px;
+    bottom: 15%;
+    right: 5%;
     background-color: #cdd4f8;
     color: #088178;
     font-size: x-large;
 }
 
-#product1 .pro .cart:hover{
-    box-shadow: 2px 2px 2px slategray;
-}
