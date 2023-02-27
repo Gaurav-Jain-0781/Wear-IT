@@ -45,6 +45,7 @@ p{
     left: 0px;
     height: 75px;
     width: 100%;
+    z-index: 999;
 }
 
 #logo{
@@ -227,6 +228,7 @@ p{
     margin: 15px 0px 15px 0px;
     transition: 0.3s ease;
     position: relative;
+    top: 10%;
 }
 
 #product1 .pro:hover{
@@ -324,4 +326,3 @@ p{
     color: #088178;
     font-size: x-large;
 }
-
