@@ -378,3 +378,25 @@ button.normal{
     cursor: pointer;    
     box-shadow: 0px 0px 20px white;
 }
+
+/* Banner 2 Section */
+
+#banner2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#banner2 .first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-image: url(images/banner/bn5.png);
+    height: 50vh;
+    background-size: cover;
+    width: 530px;
+    background-position: center;
+    margin: 2% 0% 2% 5%;
+}
+
