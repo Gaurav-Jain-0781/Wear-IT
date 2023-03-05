@@ -268,12 +268,12 @@ button.normal{
 
 #product1 .pro .des button.colour{
     position: absolute;
-    right: 26%;
+    right: 32%;
     bottom: 2%;
     background-color: slategray;
     border: 0px solid black;
     border-radius: 100px;
-    height: 6%;
+    height: 6.5%;
     width: 10%;
 }
 
@@ -281,19 +281,19 @@ button.normal{
     background-color: grey;
     cursor: pointer;
     height: 8%;
-    width: 13%;
-    right: 25%;
+    width: 12%;
+    right: 30%;
     bottom: 2%;
 }
 
 #product1 .pro .des button.colour2{
     position: absolute;
-    right: 11%;
+    right: 19%;
     bottom: 2%;
     border-radius: 100px;
     background-color: bisque;
     border: 0px solid black;
-    height: 6%;
+    height: 6.5%;
     width: 10%;
 }
 
@@ -301,8 +301,8 @@ button.normal{
     background-color: bisque;
     cursor: pointer;
     height: 8%;
-    width: 13%;
-    right: 8%;
+    width: 12%;
+    right: 17%;
     bottom: 2%;
 }
 
@@ -328,12 +328,12 @@ button.normal{
 
 #product1 .pro .cart{
     height: 11%;
-    width: 19%;
+    width: 17%;
     line-height: 50px;
     border-radius: 50px;
     border: 1px solid whitesmoke;
     position: absolute;
-    bottom: 15%;
+    bottom: 10%;
     right: 5%;
     background-color: #cdd4f8;
     color: #088178;
