@@ -259,6 +259,7 @@ button.normal{
 #product1 .pro .des span{
     color: slategray;
     font-size: 14px;
+    font-family: Unica One;
 }
 
 #product1 .pro .des h3{
@@ -310,7 +311,7 @@ button.normal{
     color: #1a1a1a;
     padding-top: 4px;
     font-size: 20px;
-    font-family: monospace;
+    font-family: Chakra Petch;
 }
 
 #product1 .pro .des i{
@@ -392,7 +393,7 @@ button.normal{
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    background-image: url(images/banner/bn5.png);
+    background-image: url(images/banner/s4.jpg);
     height: 50vh;
     background-size: cover;
     width: 530px;
