@@ -264,46 +264,46 @@ button.normal{
 
 #product1 .pro .des h3{
     color: #9e9e9e;
-    padding-top: 6px;
+    padding-top: 10px;
 }
 
 #product1 .pro .des button.colour{
     position: absolute;
     right: 32%;
-    bottom: 2%;
+    bottom: 8%;
     background-color: slategray;
     border: 0px solid black;
     border-radius: 100px;
-    height: 6.5%;
-    width: 10%;
+    height: 8.5%;
+    width: 13.5%;
 }
 
 #product1 .pro .des button.colour:hover{
     background-color: grey;
     cursor: pointer;
-    height: 8%;
-    width: 12%;
+    height: 10%;
+    width: 16%;
     right: 30%;
-    bottom: 2%;
+    bottom: 7%;
 }
 
 #product1 .pro .des button.colour2{
     position: absolute;
-    right: 19%;
+    right: 18%;
     bottom: 2%;
     border-radius: 100px;
     background-color: bisque;
     border: 0px solid black;
-    height: 6.5%;
-    width: 10%;
+    height: 7.5%;
+    width: 12%;
 }
 
 #product1 .pro .des button.colour2:hover{
     background-color: bisque;
     cursor: pointer;
-    height: 8%;
-    width: 12%;
-    right: 17%;
+    height: 9%;
+    width: 14%;
+    right: 18%;
     bottom: 2%;
 }
 
@@ -321,7 +321,7 @@ button.normal{
 }
 
 #product1 .pro .des h4{
-    padding-top: 5px;
+    padding-top: 6px;
     color: #088178;
     font-weight: 700;
     font-size: large;
@@ -334,8 +334,8 @@ button.normal{
     border-radius: 50px;
     border: 1px solid whitesmoke;
     position: absolute;
-    bottom: 10%;
-    right: 5%;
+    bottom: 12%;
+    right: 11%;
     background-color: #cdd4f8;
     color: #088178;
     font-size: x-large;
