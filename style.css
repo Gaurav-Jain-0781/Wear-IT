@@ -386,6 +386,7 @@ button.normal{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 5% 7%;
 }
 
 #banner2 .first{
@@ -398,6 +399,9 @@ button.normal{
     background-size: cover;
     width: 530px;
     background-position: center;
-    margin: 2% 0% 2% 5%;
 }
 
+#banner2 .first h2{
+    text-align: left;
+    font-size: x-small;
+}
