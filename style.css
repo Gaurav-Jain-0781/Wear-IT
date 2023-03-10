@@ -393,15 +393,55 @@ button.normal{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: flex-start; 
     background-image: url(images/banner/s4.jpg);
     height: 50vh;
     background-size: cover;
     width: 530px;
     background-position: center;
+    padding: 20px;
 }
 
-#banner2 .first h2{
-    text-align: left;
-    font-size: x-small;
+#banner2 .second{
+    background-image: url("/images/banner/s5.webp");
+    width: 95vh;
+}
+
+#banner2 h4{
+    font-size: 25px;
+    color: #1d7daa;
+    font-weight: 300;
+    font-family: Comfortaa;
+}
+
+#banner2 h2{
+    font-size: 28px;
+    color:#2dace2;
+    font-weight: 800;
+    font-family: Roboto;
+}
+
+#banner2 span{
+    font-size: 14px;
+    color:#111111;
+    font-weight: 500;
+    padding-bottom: 15px;
+    font-family: Montserrat;
+}
+
+#banner2 button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #088178;
+    background-color: transparent;
+    transition: 00.3s, ease;
+    cursor: pointer;
+    border: 1px solid black;
+} 
+
+#banner2 .first:hover button{
+    background-color: #111111;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
 }
