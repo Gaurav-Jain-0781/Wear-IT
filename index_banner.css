@@ -43,7 +43,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 5% 7%;
+    margin: 5% 7% 2% 7%;
 }
 
 #banner2 .first{
@@ -57,10 +57,11 @@
     width: 530px;
     background-position: center;
     padding: 20px;
+    border-radius: 40px;
 }
 
 #banner2 .second{
-    background-image: url("/images/banner/s5.webp");
+    background-image: url("/images/banner/s5.jpg");
     width: 95vh;
 }
 
@@ -101,4 +102,50 @@
     background-color: #111111;
     border: 2px solid whitesmoke;
     color: whitesmoke;
+}
+
+/* Banner 3 Section*/
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 90px;
+    margin-bottom: 40px;
+}
+
+#banner3 .first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("images/banner/s6.jpg");
+    width: 60vh;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+#banner3 .first h2{
+    color: rosybrown;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 22px;
+    padding: 12px;
+}
+
+#banner3 .first h3{
+    color: #2dace2;
+    font-family: monospace;
+    font-size: medium;
+    font-weight: 200;
+    padding: 12px;
+}
+
+#banner3 .second{
+    background-image: url("images/banner/s7.jpg");
+}
+
+#banner3 .third{
+    background-image: url("images/banner/s2.jpg");
 }
