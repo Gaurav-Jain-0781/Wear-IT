@@ -1,0 +1,66 @@
+#notifications{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5% 0 5% 0;
+    background-image: url("images/banner/s8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    background-position: 10% 35%;
+    height: 250px;
+}
+
+#notifications h4{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#notifications p{
+    color: rgb(218, 230, 231);
+    font-size: 18px;
+    font-weight: 800;
+    font-family: Chakra Petch;
+}
+
+#notifications p span{
+    color: rgb(65, 38, 189);
+    font-family: Sofia;
+    font-size: x-large;
+}
+
+#notifications .form{
+    display: flex;
+    width: 40%;
+}
+
+#notifications input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    font-size: large;
+}
+
+#notifications button{
+    background-color: #088178;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+    padding: 10px 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
