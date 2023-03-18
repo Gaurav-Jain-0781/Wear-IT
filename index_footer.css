@@ -1,9 +1,19 @@
 /* Footer Section */
-#foot{
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 5% 7%;
 }
 
-#foot .col1 img{
+footer col{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .col img{
     height: 50px;
     width: 50px;
     margin-bottom: 15px;
