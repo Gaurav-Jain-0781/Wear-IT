@@ -108,3 +108,46 @@ button.normal{
     left: 30px;
     position: absolute;
 }
+
+#mobile{
+    display: none;
+}
+
+/* Media Query*/
+@media (max-width: 850px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0px;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: aliceblue;
+        box-shadow: 0 40px 60px rgb(0, 0, 0, 0.5);
+        padding-top: 24px;
+        padding-left: 12px;
+    }
+
+    #navbar li{
+        margin-bottom: 25px;
+    }
+
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i{
+        color: #111111;
+        font-size: x-large;
+        padding-right: 40px;
+        padding-left: 15px;
+    }
+
+    #navbar.active{
+        right: 0px;
+    }
+} 
