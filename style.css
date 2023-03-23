@@ -148,6 +148,6 @@ button.normal{
     }
 
     #navbar.active{
-        right: 0px;
+        right: 100px;
     }
 } 

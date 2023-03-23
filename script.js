@@ -6,3 +6,8 @@ if (bar) {
         nav.classList.add('active');
     })
 }   
+
+function asd()
+{
+    alert("Javascript working");
+}
