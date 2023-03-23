@@ -1,13 +1,12 @@
 const bar = document.getElementById('bar');
-const nav = document.getElementById('navbar');
-
-if (bar) {
-    bar.addEventListener('click', () => {
-        nav.classList.add('active');
-    })
-}   
+const nav = document.getElementById("navbar");
 
 function asd()
 {
-    alert("Javascript working");
-}
+    console.log(bar);
+};
+
+bar.addEventListener('click', function(){
+    alert(nav);
+});
+nav.classList.add('active');
