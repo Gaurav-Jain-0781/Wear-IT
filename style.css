@@ -52,7 +52,7 @@ button.normal{
     align-items: center;
     justify-content: space-between;
     padding: 20px 25px;
-    background-color: orange;
+    background-color: #3AAFA9;
     box-shadow: 0 5px 15px rgb(0, 0, 0, 0.5);
     position: sticky;
     top: 0px;
@@ -85,17 +85,17 @@ button.normal{
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
-    color: #1a1a1a;
+    color: #FEFEFE;
     transition: 0.3s ease;
 }
 
 #navbar li a:hover{
-    color: white;
+    color: #DEF2F1;
     font-size: 20px;
 }
  
 #navbar li a.active{
-    color: white;
+    color: FEFEFE;
 }
 
 #navbar li a.active::after,
@@ -103,7 +103,7 @@ button.normal{
     content: "";
     width: 30%;
     height: 3px;
-    background-color: red;
+    background-color: #17252A;
     bottom: -4px;
     left: 30px;
     position: absolute;

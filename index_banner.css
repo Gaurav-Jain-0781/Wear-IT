@@ -61,27 +61,27 @@
 }
 
 #banner2 .second{
-    background-image: url("/images/banner/s5.jpg");
+    background-image: url("/images/banner/s9.jpeg");
     width: 95vh;
 }
 
 #banner2 h4{
     font-size: 25px;
-    color: #1d7daa;
-    font-weight: 300;
+    color: #3AAFA9;
+    font-weight: 900;
     font-family: Comfortaa;
 }
 
 #banner2 h2{
-    font-size: 28px;
-    color:#2dace2;
+    font-size: 149%;
+    color:#2B7A78;
     font-weight: 800;
     font-family: Roboto;
 }
 
 #banner2 span{
     font-size: 14px;
-    color:#111111;
+    color:#17252A;
     font-weight: 500;
     padding-bottom: 15px;
     font-family: Montserrat;
@@ -102,50 +102,4 @@
     background-color: #111111;
     border: 2px solid whitesmoke;
     color: whitesmoke;
-}
-
-/* Banner 3 Section*/
-#banner3{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 0 90px;
-    margin-bottom: 40px;
-}
-
-#banner3 .first{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background-image: url("images/banner/s6.jpg");
-    width: 60vh;
-    height: 50vh;
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-}
-
-#banner3 .first h2{
-    color: rosybrown;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 900;
-    font-size: 22px;
-    padding: 12px;
-}
-
-#banner3 .first h3{
-    color: #2dace2;
-    font-family: monospace;
-    font-size: medium;
-    font-weight: 200;
-    padding: 12px;
-}
-
-#banner3 .second{
-    background-image: url("images/banner/s7.jpg");
-}
-
-#banner3 .third{
-    background-image: url("images/banner/s2.jpg");
 }
