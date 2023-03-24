@@ -109,6 +109,10 @@ button.normal{
     position: absolute;
 }
 
+#close{
+    display: none;
+}
+
 #mobile{
     display: none;
 }
@@ -125,14 +129,23 @@ button.normal{
         right: -300px;
         height: 100vh;
         width: 300px;
-        background-color: aliceblue;
+        background-color: rgba(75, 60, 60, 0.582);
         box-shadow: 0 40px 60px rgb(0, 0, 0, 0.5);
         padding-top: 24px;
         padding-left: 12px;
+        transition: 0.4s;
     }
 
     #navbar li{
-        margin-bottom: 25px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        padding-top: 1;
+    }
+
+    #navbar li a{
+        color: aliceblue;
+        font-size: 28px;
+        /* padding-top: 12px; */
     }
 
     #mobile{
@@ -148,6 +161,13 @@ button.normal{
     }
 
     #navbar.active{
-        right: 100px;
+        right: 0px;
+    }
+    #close{
+        display: initial;
+        font-size: 45px;
+        position: absolute;
+        top: 10px;
+        left: 42px;
     }
 } 

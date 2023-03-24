@@ -1,4 +1,3 @@
-
 /* Featured Products */
 #product{
     text-align: center;
@@ -24,12 +23,12 @@
 }
 
 #product .pro{
-    width: 25%;
+    width: 29%;
     padding: 10px 12px;
     border: 0px solid slategray;
     border-radius: 20px;
     box-shadow: 0px 0px 2px 4px rgb(0 0 0 / 10%);
-    margin: 15px 40px 15px 40px;
+    margin: 15px 25px 15px 25px;
     transition: 0.3s ease;
     position: relative;
     top: 10%;
@@ -46,11 +45,12 @@
 
 #product .pro .des{
     text-align: start;
+    height: 130px;
 }
 
 #product .pro .des span{
     color: slategray;
-    font-size: 14px;
+    font-size: 18px;
     font-family: Unica One;
     padding-bottom: 4px;
 }
@@ -59,11 +59,12 @@
     color: #9e9e9e;
     padding-top: 10px;
     font-size: unset;
+    padding-left: 26px;
 }
 
 #product .pro .des button.colour{
     position: absolute;
-    right: 37%;
+    right: 30%;
     bottom: 8%;
     background-color: slategray;
     border: 0px solid black;
@@ -77,13 +78,13 @@
     cursor: pointer;
     height: 10%;
     width: 16%;
-    right: 34%;
+    right: 28%;
     bottom: 7%;
 }
 
 #product .pro .des button.colour2{
     position: absolute;
-    right: 23%;
+    right: 18%;
     bottom: 2%;
     border-radius: 100px;
     background-color: bisque;
@@ -97,14 +98,14 @@
     cursor: pointer;
     height: 9%;
     width: 14%;
-    right: 20%;
+    right: 16%;
     bottom: 2%;
 }
 
 #product .pro .des h5{
     color: #1a1a1a;
     padding-top: 4px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Chakra Petch;
     padding-bottom: 6px;
 }
@@ -129,13 +130,13 @@
 #product .pro .cart{
     height: 11%;
     width: 17%;
-    line-height: 50px;
+    line-height: 65px;
     border-radius: 50px;
     border: 1px solid whitesmoke;
     position: absolute;
     bottom: 12%;
-    right: 17%;
+    right: 10%;
     background-color: #cdd4f8;
     color: #088178;
-    font-size: x-large;
+    font-size: 30px;
 }
