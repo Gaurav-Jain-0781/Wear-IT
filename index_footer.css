@@ -10,7 +10,7 @@ footer .col{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 16x;
+    margin-bottom: 16px;
 
 }
 
@@ -82,4 +82,13 @@ footer .install img{
 footer .copyright{
     text-align: center;
     width: 100%;
+}
+
+/* Media Query*/
+@media (max-width: 850px){
+    footer .install{
+        align-items: center;
+        padding: 0px 100px;
+        width: 100%;
+    }
 }

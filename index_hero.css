@@ -1,10 +1,10 @@
 /* Hero Section*/
 #hero{
-    background-image: url("images/people/pp.png");
+    background-image: url("images/banner/s9.jpeg");
     height: 90vh;
     width: 100%;
-    background-position: top 25% right 0;
-    background-size: cover;
+    background-position: top 75% right 0;
+    background-size: 100% 163%;
     padding: 100px 65px;
     display: flex;
     flex-direction: column;
@@ -17,6 +17,7 @@
     padding-bottom: 15px;
     font-weight: bold;
     font-size: x-large;
+    margin-top: 85px;
 }
 
 #hero h2{
@@ -96,4 +97,33 @@
 
 #feature .fe-box:nth-child(6) h6{
     background-color: #fff2e5;
+}
+
+/* Media Query*/
+@media (max-width: 850px){
+    #hero{
+        height: 70vh;
+        padding: 100px 65px;
+        background-size: cover;
+    }
+    #hero h4{
+        padding-top: 85px;
+    }
+    #hero h2{
+        color: #DEF2F1 ;
+    }
+    #hero h1{
+        color: #FEFFFF;
+    }
+    #hero p{
+        color: #3AAFA9;
+    }
+    #feature{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 40px;
+    }
+    #feature .fe-box{
+        margin: 15px 35px;
+    }
 }

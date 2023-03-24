@@ -140,3 +140,12 @@
     color: #088178;
     font-size: 30px;
 }
+/* Media Query */
+@media (max-width: 850px){
+    #product .product_container{
+        justify-content: center;
+    }
+    #product .pro{
+        margin: 16px;
+    }
+}

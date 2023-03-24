@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
-    background-position: 10% 35%;
+    background-position: 10% 45%;
     height: 250px;
 }
 
@@ -19,14 +19,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-#notifications p{
-    color: #DEF2F1;
-    font-size: 18px;
-    font-weight: 800;
-    font-family: Chakra Petch;
-}
-
-#notifications p span{
+#notifications span{
     color: #3AFAA9;
     font-family: Sofia;
     font-size: x-large;
@@ -63,4 +56,15 @@
     padding: 10px 20px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+}
+
+/* Media Query */
+@media (max-width: 850px){
+    #notifications .form{
+        width: 70%;
+    }
+    #notifications h4{
+        font-weight: 900;
+        font-size: x-large;
+    }
 }

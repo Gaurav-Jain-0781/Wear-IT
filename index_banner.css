@@ -103,3 +103,38 @@
     border: 2px solid whitesmoke;
     color: whitesmoke;
 }
+
+/* Media Query*/
+@media (max-width: 850px){
+    #banner{
+        height: 20vh;
+    }
+    #banner h4{
+        font-size: 30px;
+    }
+    #banner2{
+        margin: 0px;
+        padding: 10px 0px;
+    }
+    #banner h2{
+        font-size: larger;
+        color: #17252A;
+    }
+    #banner2 .first{
+        width: 100%;
+        height: 20vh;
+        border-radius: 0px;
+        margin-bottom: 10px;
+    }
+    #banner2 h4{
+        color: #17252A;
+    }
+    #banner2 span{
+        color: whitesmoke;
+        font-weight: 500;
+    }
+    #banner2 .second{    
+        background-size: 100% 230%;
+        background-position: top 82% right 20%;
+    }
+}

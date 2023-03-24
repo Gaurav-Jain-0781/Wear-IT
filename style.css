@@ -129,23 +129,22 @@ button.normal{
         right: -300px;
         height: 100vh;
         width: 300px;
-        background-color: rgba(75, 60, 60, 0.582);
+        background-color: rgba(58, 175, 169, 0.774);
         box-shadow: 0 40px 60px rgb(0, 0, 0, 0.5);
-        padding-top: 24px;
+        padding-top: 80px;
         padding-left: 12px;
         transition: 0.4s;
     }
 
     #navbar li{
-        margin-bottom: 15px;
-        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
         padding-top: 1;
     }
 
     #navbar li a{
         color: aliceblue;
         font-size: 28px;
-        /* padding-top: 12px; */
     }
 
     #mobile{
@@ -154,7 +153,7 @@ button.normal{
     }
 
     #mobile i{
-        color: #111111;
+        color: #17252A;
         font-size: x-large;
         padding-right: 40px;
         padding-left: 15px;
@@ -163,11 +162,18 @@ button.normal{
     #navbar.active{
         right: 0px;
     }
+
     #close{
-        display: initial;
-        font-size: 45px;
+        font-size: 35px;
         position: absolute;
-        top: 10px;
-        left: 42px;
+        top: 30px;
+        left: 40px;
+        display: initial;
+        text-decoration: none;
+        color: #17252A;
+    }
+
+    #shopping-bag{
+        display: none;
     }
 } 
