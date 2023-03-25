@@ -29,6 +29,10 @@
     font-size: 45px;
 }
 
+#hero p{
+    color: whitesmoke;
+}
+
 #hero button{
     background-image: url("images/shop\ now.jpg");
     background-color: transparent;
