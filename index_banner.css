@@ -61,7 +61,8 @@
 }
 
 #banner2 .second{
-    background-image: url("/images/banner/s9.jpeg");
+    background-image: url("/images/banner/s7.jpg");
+    justify-content: space-evenly;
 }
 
 #banner2 .second h4{
