@@ -143,9 +143,10 @@
 /* Media Query */
 @media (max-width: 850px){
     #product .product_container{
-        justify-content: center;
+        justify-content: space-evenly;
     }
     #product .pro{
-        margin: 16px;
+        margin: 18px;
+        width: 45%;
     }
 }
