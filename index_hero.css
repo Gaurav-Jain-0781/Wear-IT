@@ -135,7 +135,7 @@
 
 @media (max-width: 414px){
     #hero{ 
-        height: 60vh;
+        height: 80vh;
         padding: 60px 30px;
         background-size: 100% 140%;
         justify-content: center;
@@ -154,6 +154,6 @@
     }
     #feature .fe-box{
         margin: 15px 15px;
-        width: 150px;
+        width: 135px;
     }
 }
