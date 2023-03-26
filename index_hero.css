@@ -109,6 +109,7 @@
         height: 70vh;
         padding: 100px 65px;
         background-size: cover;
+        justify-content: center;
     }
     #hero h4{
         padding-top: 85px;
@@ -129,5 +130,30 @@
     }
     #feature .fe-box{
         margin: 15px 35px;
+    }
+}
+
+@media (max-width: 400px){
+    #hero{ 
+        height: 60vh;
+        padding: 60px 30px;
+        background-size: 100% 140%;
+        justify-content: center;
+    }
+    #hero h2{
+        font-size: 38px;
+    }
+    #hero h1{
+        font-size: 32px;
+    }
+    #hero h4{
+        padding-top: 25px;
+    }
+    #feature{
+        margin: 15px;
+    }
+    #feature .fe-box{
+        margin: 15px 15px;
+        width: 150px;
     }
 }

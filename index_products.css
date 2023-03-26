@@ -150,3 +150,16 @@
         width: 45%;
     }
 }
+
+@media (max-width:400px){
+    #product {
+        margin: 25px;
+    }
+    #product h2{
+        font-size: 35px;
+    }
+    #product .pro{
+        margin: 18px;
+        width: 100%;
+    }
+}

@@ -135,34 +135,28 @@ button.normal{
         padding-left: 12px;
         transition: 0.4s;
     }
-
     #navbar li{
         margin-bottom: 20px;
         margin-top: 20px;
         padding-top: 1;
     }
-
     #navbar li a{
         color: aliceblue;
         font-size: 28px;
     }
-
     #mobile{
         display: flex;
         align-items: center;
     }
-
     #mobile i{
         color: #17252A;
         font-size: x-large;
         padding-right: 40px;
         padding-left: 15px;
     }
-
     #navbar.active{
         right: 0px;
     }
-
     #close{
         font-size: 35px;
         position: absolute;
@@ -172,8 +166,16 @@ button.normal{
         text-decoration: none;
         color: #17252A;
     }
-
     #shopping-bag{
         display: none;
     }
 } 
+
+@media (max-width: 400px){
+    #header{
+        padding: 10px 5px;
+    }
+    #navbar.active{
+        right: -130px;
+    }
+}
