@@ -126,14 +126,14 @@
     #feature{
         flex-wrap: wrap;
         justify-content: center;
-        margin: 40px;
+        margin: 15px;
     }
     #feature .fe-box{
         margin: 15px 35px;
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 414px){
     #hero{ 
         height: 60vh;
         padding: 60px 30px;

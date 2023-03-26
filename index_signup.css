@@ -68,3 +68,12 @@
         font-size: x-large;
     }
 }
+
+@media (max-width: 414px){
+    #notifications .form{
+        width: 100%;
+    }
+    #notifications h4{
+        font-size: 20px;
+    }
+}

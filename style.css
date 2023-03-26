@@ -171,7 +171,7 @@ button.normal{
     }
 } 
 
-@media (max-width: 400px){
+@media (max-width: 414px){
     #header{
         padding: 10px 5px;
     }

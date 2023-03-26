@@ -147,11 +147,11 @@
     }
     #product .pro{
         margin: 18px;
-        width: 45%;
+        width: 44%;
     }
 }
 
-@media (max-width:400px){
+@media (max-width:414px){
     #product {
         margin: 25px;
     }
