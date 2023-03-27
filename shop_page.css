@@ -1,0 +1,37 @@
+/* Page Header*/
+#page-header{
+    background-image: url(images/banner/s10.jpg);
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-position: top 43% right 0%;
+}
+
+#page-header h2,
+#page-header p{
+    color: #17252A;
+}
+
+.indexing {
+    padding: 12px;
+    margin: 12px 60px;
+}
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color: #3AAFA9;
+    padding: 10px 15px;
+    color: #FEFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 4px;
+}
