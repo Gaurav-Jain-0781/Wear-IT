@@ -17,6 +17,140 @@
     color: #17252A;
 }
 
+#product{
+    margin: 50px;
+    text-align: center;
+}
+
+#product .product_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#product .pro{
+    width: 20%;
+    padding: 10px 12px;
+    border: 0px solid #949999;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 4px rgba(148, 153, 153, 0.589);
+    margin: 15px 25px 15px 25px;
+    transition: 0.3s ease;
+    position: relative;
+    top: 10%;
+}
+
+#product .pro:hover{
+    box-shadow: 0px 0px 25px 10px rgba(148, 153, 153, 0.733);
+}
+
+#product .pro img{ 
+    width: 100%;
+    border-radius: 20px;  
+}
+
+#product .pro .des{
+    text-align: start;
+    height: 130px;
+}
+
+#product .pro .des span{
+    color: slategray;
+    font-size: 18px;
+    font-family: Unica One;
+    padding-bottom: 4px;
+}
+
+#product .pro .des h3{
+    color: #17252A;
+    padding-top: 10px;
+    font-size: unset;
+}
+
+#product .pro .des button.colour{
+    position: absolute;
+    right: 30%;
+    bottom: 8%;
+    background-color: slategray;
+    border: 0px solid black;
+    border-radius: 100px;
+    height: 7.5%;
+    width: 13.5%;
+}
+
+#product .pro .des button.colour:hover{
+    background-color: grey;
+    cursor: pointer;
+    height: 9%;
+    width: 16%;
+    right: 28%;
+    bottom: 7%;
+}
+
+#product .pro .des button.colour2{
+    position: absolute;
+    right: 18%;
+    bottom: 2%;
+    border-radius: 100px;
+    background-color: bisque;
+    border: 0px solid black;
+    height: 7%;
+    width: 12%;
+}
+
+#product .pro .des button.colour2:hover{
+    background-color: bisque;
+    cursor: pointer;
+    height: 8%;
+    width: 14%;
+    right: 16%;
+    bottom: 2%;
+}
+
+#product .pro .des h5{
+    color: #3AAFA9;
+    padding-top: 4px;
+    font-size: 25px;
+    font-family: Chakra Petch;
+    padding-bottom: 6px;
+}
+
+#product .pro .des .star{
+    padding-bottom: 6px;
+}
+
+#product .pro .des i{
+    font-size: 16px;
+    padding-top: 5px;
+    color: rgb(243, 181, 25);
+}
+
+#product .pro .des h4{
+    padding-top: 6px;
+    color: #088178;
+    font-weight: 700;
+    font-size: large;
+}
+
+#product .pro .cart{
+    height: 10%;
+    width: 17%;
+    line-height: 45px;
+    border-radius: 50px;
+    border: 1px solid whitesmoke;
+    position: absolute;
+    bottom: 12%;
+    right: 10%;
+    background-color: #cdd4f8;
+    color: #088178;
+    font-size: 20px;
+}
+
+#product .pro:nth-child(2){
+
+}
+
 .indexing {
     padding: 12px;
     margin: 12px 60px;
