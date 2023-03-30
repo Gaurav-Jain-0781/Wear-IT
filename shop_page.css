@@ -65,14 +65,14 @@
 #product .pro .des h3{
     color: #17252A;
     padding-top: 10px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 #product .pro .des button.colour{
     position: absolute;
     right: 24%;
     bottom: 8%;
-    background-color: #93E9BE;
+    background-color: #a7a6a4;
     border: 0px solid black;
     border-radius: 100px;
     height: 8%;
@@ -80,7 +80,7 @@
 }
 
 #product .pro .des button.colour:hover{
-    background-color: grey;
+    background-color: #a7a6a4;
     cursor: pointer;
     height: 9%;
     width: 16%;
@@ -93,14 +93,14 @@
     right: 12%;
     bottom: 2%;
     border-radius: 100px;
-    background-color: bisque;
+    background-color: #d7ca9b;
     border: 0px solid black;
     height: 7%;
     width: 13%;
 }
 
 #product .pro .des button.colour2:hover{
-    background-color: bisque;
+    background-color: #d7ca9b;
     cursor: pointer;
     height: 8%;
     width: 14%;
@@ -111,7 +111,7 @@
 #product .pro .des h5{
     color: #3AAFA9;
     padding-top: 4px;
-    font-size: 20px;
+    font-size: 24px;
     font-family: Chakra Petch;
     padding-bottom: 6px;
 }
@@ -144,30 +144,30 @@
     right: 4%;
     background-color: #cdd4f8;
     color: #088178;
-    font-size: 20px;
+    font-size: 18px;
 }
 
-#product_container .pro .des button.colour:nth-child(2){
+#product .pro:nth-child(2) .des button.colour{
     color: #111111;
 }
 
-#product .pro .des:nth-child(2) button.colour2{
+#product .pro:nth-child(2) .des button.colour2{
     color: #93E9BE;
 }
 
-#product .pro .des:nth-child(3) button.colour{
+#product .pro:nth-child(3) .des button.colour{
     color: #BEBEBE;
 }
 
-#product .pro .des:nth-child(3) button.colour2{
+#product .pro:nth-child(3) .des button.colour2{
     color: #D6154C;
 }
 
-#product .pro .des:nth-child(4) button.colour{
+#product .pro:nth-child(4) .des button.colour{
     color: #93E9BE;
 }
 
-#product .pro .des:nth-child(4) button.colour2{
+#product .pro:nth-child(4) .des button.colour2{
     color: #93E9BE;
 }
 
