@@ -1,0 +1,34 @@
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+#prodetails .sing-pro-image{
+    display: flex;
+    width: 43%;
+    height: 520px;
+    border-radius: 10px;
+}
+
+#prodetails .sing-pro-image img{
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.small-img-group{
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.small-img-group img{
+    height: 116px;
+}
+
+.small-img-group img:hover{
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 2px slategray;
+}
