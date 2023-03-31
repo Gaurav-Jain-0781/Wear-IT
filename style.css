@@ -64,8 +64,8 @@ button.normal{
 
 #logo{
     position: sticky;
-    padding: 12px 12px;
-    margin: 96px 12px 12px 12px;  
+    margin: 59px 12px 12px 0px;
+    height: 130px; 
 }
 
 #navbar{
