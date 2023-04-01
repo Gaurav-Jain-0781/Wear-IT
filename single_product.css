@@ -1,5 +1,4 @@
 #prodetails{
-    width: 94%;
     display: flex;
     justify-content: space-around;
     display: flex;
@@ -10,8 +9,7 @@
 
 #prodetails .sing-pro-image{
     display: flex;
-    width: 43%;
-    height: 520px;
+    width: 55%;
     border-radius: 10px;
 }
 
@@ -19,6 +17,7 @@
     border-radius: 10px;
     margin: 5px;
     cursor: pointer;
+    width: 75%;
 }
 
 .small-img-group{
@@ -26,7 +25,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 520px;
     margin-left: 10px;
     cursor: pointer;
 }
@@ -44,7 +42,7 @@
 
 #prodetails .pro-des{
     width: 49%;
-    padding-top: 30px;
+    padding-top: 15px;
     padding-right: 30px;
 }
 
@@ -120,8 +118,9 @@
 }
 
 .pro-des span{
-    line-height: 25px;
-    font-family: "Trirong";
+    line-height: 30px;
+    font-family: system-ui;
+    font-size: 18px;
     margin: 10px 10px 10px 0px;
 }
 
@@ -139,7 +138,7 @@
     font-weight: 500;
     color: #27252A;
 }
-
+/*
 #product .pro .des button.c1{
     position: absolute;
     right: 24%;
@@ -177,6 +176,7 @@
     right: 12%;
     bottom: 2%;
 }
+*/
 
 #product .pro:nth-child(1) .des button.c1{
     background-color: #A1AAD5;
@@ -201,4 +201,51 @@
 }
 #product .pro:nth-child(4) .des button.c2{
     background-color: #585A5E;
+}
+
+@media (max-width:850px){
+    #prodetails{
+        width: 95%;
+        margin: 30px 15px;
+    }
+    #prodetails .sing-pro-image{
+        width: 60%;
+    }
+    #prodetails .sing-pro-image img{
+        width: 70%;
+    }
+    .small-img-group{
+        width: 28%;
+    }
+    #prodetails .pro-des{
+        padding: 5px 0px;
+        width: 45%;
+    }
+    .pro-des span{
+        font-size: small;
+        line-height: 20px;
+    }
+    .pro-des button{
+        width: 55%;
+    }
+}
+
+@media (max-width:414px){
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetails .sing-pro-image{
+        width: 100%;
+    }
+    #prodetails .pro-des{
+        width: 100%;
+        margin: 7px;
+    }
+    .pro-des span{
+        margin-right: 25px;
+    }
+    .pro-des button{
+        width: 45%;
+    }
 }

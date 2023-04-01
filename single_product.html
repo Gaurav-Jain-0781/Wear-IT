@@ -37,17 +37,17 @@
         <div class="sing-pro-image">
             <img src="images/product/pd1.png" alt="product" id="main">
             <div class="small-img-group">
-                <div class="small-img">
-                    <img src="images/product/pd1.png" alt="small images">
+                <div class="small-img-col">
+                    <img src="images/product/pd1.png" alt="small images" class="small-img">
                 </div>
-                <div class="small-img">
-                    <img src="images/product/pd1.2.png" alt="small images">
+                <div class="small-img-col">
+                    <img src="images/product/pd1.2.png" alt="small images" class="small-img">
                 </div>
-                <div class="small-img">
-                    <img src="images/product/pd1.3.png" alt="small images">
+                <div class="small-img-col">
+                    <img src="images/product/pd1.3.png" alt="small images" class="small-img">
                 </div>
-                <div class="small-img">
-                    <img src="images/product/pd1.4.png" alt="small images">
+                <div class="small-img-col">
+                    <img src="images/product/pd1.4.png" alt="small images" class="small-img">
                 </div>
             </div>
         </div>
@@ -100,8 +100,8 @@
                         <i class="fa-solid fa-star-half-stroke"></i>
                     </div>
                     <h3>Find Your Color : </h3>
-                    <button class="c1"></button>
-                    <button class="c2"></button>
+                    <button class="colour"></button>
+                    <button class="colour2"></button>
                 </div>
                 <a href="#"><i class="fa-solid fa-shopping-cart cart"></i></a>
             </div>
@@ -118,8 +118,8 @@
                         <i class="fa-solid fa-star-half-stroke"></i>
                     </div>
                     <h3>Find Your Color : </h3>
-                    <button class="c1"></button>
-                    <button class="c2"></button>
+                    <button class="colour"></button>
+                    <button class="colour2"></button>
                 </div>
                 <a href="#"><i class="fa-solid fa-shopping-cart cart"></i></a>
             </div>
@@ -136,8 +136,8 @@
                         <i class="fa-solid fa-star-half-stroke"></i>
                     </div>
                     <h3>Find Your Color : </h3>
-                    <button class="c1"></button>
-                    <button class="c2"></button>
+                    <button class="colour"></button>
+                    <button class="colour2"></button>
                 </div>
                 <a href="#"><i class="fa-solid fa-shopping-cart cart"></i></a>
             </div>
@@ -154,8 +154,8 @@
                         <i class="fa-solid fa-star-half-stroke"></i>
                     </div>
                     <h3>Find Your Color : </h3>
-                    <button class="c1"></button>
-                    <button class="c2"></button>
+                    <button class="colour"></button>
+                    <button class="colour2"></button>
                 </div>
                 <a href="#"><i class="fa-solid fa-shopping-cart cart"></i></a>
             </div>
@@ -220,6 +220,24 @@
         </div>
     </footer>
 
+    <script>
+        var main_img = document.getElementById('main');
+        var small_img = document.getElementsByClassName("small-img");
+
+        small_img[0].onclick = function(){
+            main_img.src = small_img[0].src;
+        }
+        small_img[1].onclick = function(){
+            main_img.src = small_img[1].src;
+        }
+        small_img[2].onclick = function(){
+            main_img.src = small_img[2].src;
+        }
+        small_img[3].onclick = function(){
+            main_img.src = small_img[3].src;
+        }
+    </script>
+
     <script src="script.js"></script>
 </body> 
-</html> 
+</html>  
