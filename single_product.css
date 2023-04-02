@@ -29,8 +29,7 @@
     cursor: pointer;
 }
 
-.small-img-group img{
-    height: 116px;
+#prodetails .small-img-col img{
     transition: 0.2s ease;
     cursor: pointer;
 }
@@ -97,13 +96,13 @@
 }
 
 .pro-des button{
-    margin: 10px 10px 10px 0px;
+    margin: 25px 10px 25px 0px;
     padding: 10px;
     background-color: #3AAFA9;
     color: whitesmoke;
     border: none;
     border-radius: 5px;
-    height: 12%;
+    height: 10%;
     width: 27%;
     font-size: 19px;
     font-family: 'Sono';
