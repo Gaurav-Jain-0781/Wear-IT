@@ -104,3 +104,68 @@
     font-weight: 700;
     color: #3AAFA9;
 }
+
+@media (max-width:850px) {
+    #page-header.blog-header p{
+        font-size: 25px;
+    }
+    #forum{
+        padding: 30px;
+    }
+    #forum .forum-box{
+        margin: 15px 0px 65px 0px;
+    }
+    #forum .forum-box .people-img{
+        width: 60%;
+        height: 630px;
+    }
+    #forum .people-img img{
+        height: 600px;
+    }
+    #forum .people-des{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #forum .people-des h4{
+        font-size: 30px;
+    }
+    #forum .people-des a::after{
+        right: 22%;
+    }
+}
+
+@media (max-width:414px){
+    #page-header.blog-header p{
+        font-size: 22px;
+    }
+    #forum{
+        padding: 20px;
+    }
+    #forum .forum-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px 0px 0px;
+    }
+    #forum .forum-box .people-img{
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 1%;
+    }
+    #forum .people-img img {
+        height: 465px;
+    }
+    #forum .people-des{
+        padding: 0px;
+        margin-top: 140%;
+        width: 100%;
+    }
+    #forum .people-des p{
+        font-size: 14px;
+    }
+    #forum .people-des a::after {
+        right: 45%;
+    }
+}
