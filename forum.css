@@ -10,7 +10,7 @@
 }
 
 #forum{
-    padding: 100px 100px 0px 100px;
+    padding: 65px 100px 0px 100px;
 }
 
 #forum .forum-box {
@@ -35,7 +35,7 @@
 }
 
 #forum .forum-box:nth-child(2) .people-img{
-    background-color: #771019;
+    background-color: #507891;
 }
 
 #forum .forum-box:nth-child(3) .people-img{
@@ -85,7 +85,7 @@
 }
 
 #forum .people-des h4{
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Sono';
     color: #2B7A78;
     font-weight: bold;
