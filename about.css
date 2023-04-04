@@ -7,7 +7,7 @@
 
 #about img{
     width: 50%;
-    height: 310px;
+    height: 340px;
 }
 
 #about h2{
@@ -28,4 +28,55 @@
 
 #about-video{
     text-align: center;
+}
+
+#about-video .video{
+    width: 22%;
+    height: auto;
+    margin: 30px auto 0px auto;
+}
+
+#about-video .video video{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media (max-width:850px){
+    #about{
+        margin: 30px;
+    }
+    #about h2{
+        font-size: 30px;
+    }
+    #about p{
+        font-size: 14px;
+        line-height: 23px;
+    }
+    #about-video .video{
+        width: 40%;
+    }
+}
+
+@media (max-width:414px){
+    #about{
+        flex-direction: column;
+    }
+    #about img{
+        width: 100%;
+        height: auto;
+    }
+    #about h2{
+        margin-top: 25px;
+        font-size: 35px;
+    }
+    #about p{
+        margin: 0px;
+    }
+    #about-video h1{
+        font-size: 35px;
+    }
+    #about-video .video{
+        width: 70%;
+    }
 }
