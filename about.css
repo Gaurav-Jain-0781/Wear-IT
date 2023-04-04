@@ -1,0 +1,31 @@
+#about{
+    margin: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about img{
+    width: 50%;
+    height: 310px;
+}
+
+#about h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Comfortaa;
+    color: #3AAFA9;
+    margin-bottom: 5%;
+}
+
+#about p{
+    line-height: 25px;
+    font-size: 17px;
+    font-family: "Roboto Mono";
+    font-weight: 500;
+    margin-left: 7%;
+}
+
+#about-video{
+    text-align: center;
+}
