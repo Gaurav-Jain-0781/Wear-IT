@@ -81,7 +81,6 @@
 }
 
 #product .pro .des button.colour:hover{
-    background-color: #a7a6a4;
     cursor: pointer;
     height: 10%;
     width: 17%;
@@ -102,7 +101,6 @@
 }
 
 #product .pro .des button.colour2:hover{
-    background-color: #d7ca9b;
     cursor: pointer;
     height: 9%;
     width: 16%;
@@ -152,25 +150,44 @@
 #product .pro:nth-child(2) .des button.colour{
     background-color: lightslategray;
 }
-
 #product .pro:nth-child(2) .des button.colour2{
     background-color: #b0bea6;
 }
-
 #product .pro:nth-child(3) .des button.colour{
     background-color: #fa1071;
 }
-
 #product .pro:nth-child(3) .des button.colour2{
     background-color: #ffccda;
 }
-
 #product .pro:nth-child(4) .des button.colour{
     background-color: #c95957;
 }
-
 #product .pro:nth-child(4) .des button.colour2{
     background-color: #aa4048;
+}
+#product .pro:nth-child(5) .des button.colour{
+    background-color: #674a51;
+}
+#product .pro:nth-child(5) .des button.colour2{
+    background-color: #aca895;
+}
+#product .pro:nth-child(6) .des button.colour{
+    background-color: #a5a5a1;
+}
+#product .pro:nth-child(6) .des button.colour2{
+    background-color: #d0d4d7;
+}
+#product .pro:nth-child(7) .des button.colour{
+    background-color: #9a7b6e;
+}
+#product .pro:nth-child(7) .des button.colour2{
+    background-color: #d7c5b6;
+}
+#product .pro:nth-child(8) .des button.colour{
+    background-color: #6d473a;
+}
+#product .pro:nth-child(8) .des button.colour2{
+    background-color: #533d67;
 }
 
 .indexing {
