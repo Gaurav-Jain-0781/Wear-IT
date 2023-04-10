@@ -159,11 +159,12 @@
     }
     #forum .people-des{
         padding: 0px;
-        margin-top: 140%;
+        margin-top: 145%;
         width: 100%;
     }
     #forum .people-des p{
         font-size: 14px;
+        margin: 5px 0px 5px 0px;
     }
     #forum .people-des a::after {
         right: 45%;

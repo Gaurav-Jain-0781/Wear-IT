@@ -22,7 +22,8 @@
     font-style: italic;
 }
 
-#product .pro{
+#product .pro,
+#product .prod{
     width: 29%;
     padding: 10px 12px;
     border: 0px solid #949999;
@@ -34,7 +35,8 @@
     top: 10%;
 }
 
-#product .pro:hover{
+#product .pro:hover,
+#product .prod:hover{
     box-shadow: 0px 0px 25px 10px rgba(148, 153, 153, 0.733);
 }
 
@@ -63,31 +65,36 @@
     background-color: #d0d4d7;
 }
 
-#product .pro img{ 
+#product .pro img,
+#product .prod img{ 
     width: 100%;
     border-radius: 20px;  
 }
 
-#product .pro .des{
+#product .pro .des,
+#product .prod .des{
     text-align: start;
     height: 130px;
 }
 
-#product .pro .des span{
+#product .pro .des span,
+#product .prod .des span{
     color: slategray;
     font-size: 18px;
     font-family: Unica One;
     padding-bottom: 4px;
 }
 
-#product .pro .des h3{
+#product .pro .des h3,
+#product .prod .des h3{
     color: #17252A;
     padding-top: 10px;
     font-size: unset;
     padding-left: 26px;
 }
 
-#product .pro .des button.colour{
+#product .pro .des button.colour,
+#product .prod .des button.colour{
     position: absolute;
     right: 30%;
     bottom: 8%;
@@ -99,7 +106,8 @@
     transition: 0.3s;
 }
 
-#product .pro .des button.colour:hover{
+#product .pro .des button.colour:hover,
+#product .prod .des button.colour:hover{
     cursor: pointer;
     height: 10%;
     width: 16%;
@@ -107,7 +115,8 @@
     bottom: 7%;
 }
 
-#product .pro .des button.colour2{
+#product .pro .des button.colour2,
+#product .prod .des button.colour2{
     position: absolute;
     right: 18%;
     bottom: 2%;
@@ -119,7 +128,8 @@
     transition: 0.3s;
 }
 
-#product .pro .des button.colour2:hover{
+#product .pro .des button.colour2:hover,
+#product .prod .des button.colour2:hover{
     cursor: pointer;
     height: 9%;
     width: 14%;
@@ -127,7 +137,8 @@
     bottom: 2%;
 }
 
-#product .pro .des h5{
+#product .pro .des h5,
+#product .prod .des h5{
     color: #3AAFA9;
     padding-top: 4px;
     font-size: 25px;
@@ -135,24 +146,28 @@
     padding-bottom: 6px;
 }
 
-#product .pro .des .star{
+#product .pro .des .star,
+#product .prod .des .star{
     padding-bottom: 6px;
 }
 
-#product .pro .des i{
+#product .pro .des i,
+#product .prod .des i{
     font-size: 16px;
     padding-top: 5px;
     color: rgb(243, 181, 25);
 }
 
-#product .pro .des h4{
+#product .pro .des h4,
+#product .prod .des h4{
     padding-top: 6px;
     color: #088178;
     font-weight: 700;
     font-size: large;
 }
 
-#product .pro .cart{
+#product .pro .cart,
+#product .prod .cart{
     height: 11%;
     width: 17%;
     line-height: 65px;
@@ -171,7 +186,8 @@
     #product .product_container{
         justify-content: space-evenly;
     }
-    #product .pro{
+    #product .pro,
+    #product .prod{
         margin: 18px;
         width: 44%;
     }
@@ -184,7 +200,8 @@
     #product h2{
         font-size: 34px;
     }
-    #product .pro{
+    #product .pro,
+    #product .prod{
         margin: 18px;
         width: 100%;
     }
