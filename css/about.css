@@ -26,6 +26,16 @@
     margin-left: 7%;
 }
 
+#about video{
+    height: 480px;
+}
+
+#about video .video{
+    height: 460px;
+    margin: 10px;
+}
+
+/* 
 #about-video{
     text-align: center;
 }
@@ -40,7 +50,7 @@
     height: 100%;
     width: 100%;
     border-radius: 20px;
-}
+} */
 
 @media (max-width:850px){
     #about{

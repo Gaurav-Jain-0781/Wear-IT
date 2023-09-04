@@ -57,15 +57,15 @@ button.normal{
     position: sticky;
     top: 0px;
     left: 0px;
-    height: 75px;
+    height: 65px;
     width: 100%;
     z-index: 999;
 }
 
 #logo{
     position: sticky;
-    margin: 59px 12px 12px 0px;
-    height: 130px; 
+    margin: 0px;
+    height: 75px; 
 }
 
 #navbar{
