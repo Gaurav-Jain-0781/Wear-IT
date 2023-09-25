@@ -12,8 +12,7 @@
 }
 
 #cart table img{
-    width: 70%;
-    height: 10%;
+    width: 55%;
 }
 
 #cart table td:first-child{
@@ -58,6 +57,28 @@
 
 #cart table tbody tr td{
     padding-top: 15px;
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+}
+
+/*#cart table tbody tr{
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+}*/
+
+#cart table tbody tr td:nth-child(3){
+    font-weight: 700;
+}
+
+#cart table tbody tr td:nth-child(4),
+#cart table tbody tr td:nth-child(6){
+    font-family: cursive;
+}
+
+#cart table tbody tr i{
+    color: black;
+    font-size: 16px;
 }
 
 #cart table tbody td{

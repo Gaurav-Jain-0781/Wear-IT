@@ -13,3 +13,11 @@ if (close) {
         {nav.classList.remove('active');
     })
 }
+
+let price = document.getElementsByClassName('price').value;
+let quantity = document.getElementsByClassName('quantity').value;
+console.log(typeof(quantity));
+
+function calculate() {
+    
+}

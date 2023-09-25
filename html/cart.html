@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../css/shop_page.css">
     <link rel="stylesheet" href="../css/index_footer.css">
     <link rel="stylesheet" href="../css/cart.css">
+    <script src="https://kit.fontawesome.com/4e97f0f302.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Unica One|Monoton|Play|Chakra Petch|Koulen|Phudu|Comfortaa|Montserrat|Sono|Kalam|Noto Serif Lao|Alkatra|Roboto Mono">
 </head>
 <body>
     <section id="header">
@@ -48,27 +50,27 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><a href="#"><i class=""></i></a></td>
+                    <td><a href="#"><i class="fa-regular fa-rectangle-xmark"></i></a></td>
                     <td><img src="../images/product/pd1.png"></td>
                     <td>Air Jordan 4 Craft</td>
-                    <td>Rs. 21999</td>
-                    <td><input type="number" value="1"></td>
-                    <td>Rs. 21999</td>
+                    <td class="price">Rs. 21999</td>
+                    <td><input class="quantity" type="number" value="1" onclick="total()"></td>
+                    <td class="total">Rs. 21999</td>
                 </tr>
                 <tr>
-                    <td><a href="#"><i class=""></i></a></td>
+                    <td><a href="#"><i class="fa-regular fa-rectangle-xmark"></i></a></td>
                     <td><img src="../images/product/pd2.png"></td>
                     <td>Air Jordan 4 Craft</td>
-                    <td>Rs. 21999</td>
-                    <td><input type="number" value="1"></td>
-                    <td>Rs. 43998</td>
+                    <td class="price">Rs. 21999</td>
+                    <td><input class="quantity" type="number" value="1" onclick="total()"></td>
+                    <td class="total">Rs. 43998</td>
                 </tr><tr>
-                    <td><a href="#"><i class=""></i></a></td>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
                     <td><img src="../images/product/pd3.png"></td>
                     <td>Air Jordan 1 Zoom Air Comfort 2</td>
-                    <td>Rs. 23599</td>
-                    <td><input type="number" value="1"></td>
-                    <td>Rs. 23599</td>
+                    <td class="price">Rs. 23599</td>
+                    <td><input class="quantity" type="number" value="1" onclick="total()"></td>
+                    <td class="total">Rs. 23599</td>
                 </tr>
             </tbody>
         </table>
@@ -122,6 +124,18 @@
         </div>
     </footer>
 
-    <script src="../script.js"></script>
+    <script>
+        let price = Array.from(document.getElementsByClassName('price'));
+        let quantity = Array.from(document.getElementsByClassName('quantity'));
+        let totalElement = document.getElementsByClassName('total');
+
+        var total = () => {
+            for(let i = 0; i < price.length; i++){            
+                let p = parseInt(price[i].textContent.replace(/\D/g,''));
+                let q = parseInt(quantity[i].value);
+                totalElement[i].innerHTML = p*q;
+            }
+        }        
+    </script>
 </body>
 </html>
