@@ -53,27 +53,53 @@
                     <td><a href="#"><i class="fa-regular fa-rectangle-xmark"></i></a></td>
                     <td><img src="../images/product/pd1.png"></td>
                     <td>Air Jordan 4 Craft</td>
-                    <td class="price">Rs. 21999</td>
+                    <td class="price">21999</td>
                     <td><input class="quantity" type="number" value="1" onclick="total()"></td>
-                    <td class="total">Rs. 21999</td>
+                    <td class="total">Rs. 0</td>
                 </tr>
                 <tr>
                     <td><a href="#"><i class="fa-regular fa-rectangle-xmark"></i></a></td>
                     <td><img src="../images/product/pd2.png"></td>
                     <td>Air Jordan 4 Craft</td>
-                    <td class="price">Rs. 21999</td>
+                    <td class="price">21999</td>
                     <td><input class="quantity" type="number" value="1" onclick="total()"></td>
-                    <td class="total">Rs. 43998</td>
+                    <td class="total">Rs. 0</td>
                 </tr><tr>
                     <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
                     <td><img src="../images/product/pd3.png"></td>
                     <td>Air Jordan 1 Zoom Air Comfort 2</td>
-                    <td class="price">Rs. 23599</td>
+                    <td class="price">23599</td>
                     <td><input class="quantity" type="number" value="1" onclick="total()"></td>
-                    <td class="total">Rs. 23599</td>
+                    <td class="total">Rs. 0</td>
                 </tr>
             </tbody>
         </table>
+    </section>
+
+    <section id="cart-add">
+        <div id="coupon"> 
+            <h2>Apply Coupon</h2>
+            <input placeholder="Enter Your Coupon">
+            <button>Apply</button>
+        </div>
+        <div id="cart-total">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td id="sub_total"></td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td id="shipping_charges">10</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong id="cart_total"></strong></td>
+                </tr>
+            </table>
+            <button>Proceed to Checkout</button>
+        </div>
     </section>
 
     <footer>
@@ -124,18 +150,6 @@
         </div>
     </footer>
 
-    <script>
-        let price = Array.from(document.getElementsByClassName('price'));
-        let quantity = Array.from(document.getElementsByClassName('quantity'));
-        let totalElement = document.getElementsByClassName('total');
-
-        var total = () => {
-            for(let i = 0; i < price.length; i++){            
-                let p = parseInt(price[i].textContent.replace(/\D/g,''));
-                let q = parseInt(quantity[i].value);
-                totalElement[i].innerHTML = p*q;
-            }
-        }        
-    </script>
+    <script src="../script.js"> </script>
 </body>
 </html>
