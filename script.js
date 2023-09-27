@@ -25,6 +25,7 @@ function total() {
         let q = parseInt(quantity[i].value);
         totalElement[i].innerHTML = "Rs. " + p*q;
     }
+    calculate_subtotal();
 }      
 
 function calculate_subtotal() {
