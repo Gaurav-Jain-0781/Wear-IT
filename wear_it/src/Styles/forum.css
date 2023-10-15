@@ -1,0 +1,172 @@
+#page-header.blog-header{
+    background-image: url("../images/banner/s1.jpg");
+} 
+
+#page-header.blog-header p{
+    color: #12ffff;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#forum{
+    padding: 65px 100px 0px 100px;
+}
+
+#forum .forum-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative ;
+    margin: 15px 0px 40px 0px;
+    justify-content: space-evenly;
+} 
+
+#forum .forum-box .people-img{
+    width: 38%;
+    height: 530px;
+    box-shadow: 2px 2px 15px 5px slategrey;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #354593;
+    border: 0px solid black;
+}
+
+#forum .forum-box:nth-child(2) .people-img{
+    background-color: #507891;
+}
+
+#forum .forum-box:nth-child(3) .people-img{
+    background-color: #362e5f;
+}
+
+#forum .forum-box:nth-child(4) .people-img{
+    background-color: #056f37;
+}
+
+#forum img{
+    width: 92%;
+    height: 500px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#forum .people-des{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#forum .people-des a{
+    text-decoration: none;
+    color: black ;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s;
+    margin: 10px 0px;
+}
+
+#forum .people-des a::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    position: absolute; 
+    top: 44%;
+    right: 63%;
+}
+
+#forum .people-des a:hover{
+    color: slategrey;
+}
+
+#forum .people-des h4{
+    font-size: 40px;
+    font-family: 'Sono';
+    color: #2B7A78;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+#forum .people-des p{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+#forum .people-des h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #3AAFA9;
+}
+
+@media (max-width:850px) {
+    #page-header.blog-header p{
+        font-size: 25px;
+    }
+    #forum{
+        padding: 30px;
+    }
+    #forum .forum-box{
+        margin: 15px 0px 65px 0px;
+    }
+    #forum .forum-box .people-img{
+        width: 60%;
+        height: 630px;
+    }
+    #forum .people-img img{
+        height: 600px;
+    }
+    #forum .people-des{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #forum .people-des h4{
+        font-size: 30px;
+    }
+    #forum .people-des a::after{
+        right: 22%;
+    }
+}
+
+@media (max-width:414px){
+    #page-header.blog-header p{
+        font-size: 22px;
+    }
+    #forum{
+        padding: 20px;
+    }
+    #forum .forum-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px 0px 0px;
+    }
+    #forum .forum-box .people-img{
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 1%;
+    }
+    #forum .people-img img {
+        height: 465px;
+    }
+    #forum .people-des{
+        padding: 0px;
+        margin-top: 145%;
+        width: 100%;
+    }
+    #forum .people-des p{
+        font-size: 14px;
+        margin: 5px 0px 5px 0px;
+    }
+    #forum .people-des a::after {
+        right: 45%;
+    }
+}
