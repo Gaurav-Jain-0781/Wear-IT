@@ -42,7 +42,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 5% 5% 2% 5%;
+    margin: 3% 5% 2% 5%;
 }
 
 #banner2 .first{
@@ -51,7 +51,7 @@
     justify-content: center;
     align-items: flex-start; 
     background-image: url("../images/banner/s4.jpg");
-    height: 50vh;
+    height: 40vh;
     background-size: cover;
     width: 49%;
     background-position: center;

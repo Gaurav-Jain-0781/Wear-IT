@@ -21,14 +21,14 @@ footer .col img{
 }
 
 footer h4{
-    font-size: 18px;
+    font-size: 28px;
     padding-bottom: 16px;
     font-family: "Noto Serif Lao";
     font-weight: 700;
 }
 
 footer p{
-    font-size: 15px;
+    font-size: 20px;
     margin: 0 0 8px 0;
     color: rgba(34, 34, 34, 0.548);
     font-family: Sono;
@@ -55,14 +55,14 @@ footer .follow{
     margin-top: 10px;
 }
 
-footer .follow i{
+footer .follow .socail{
     color: #465b52;
     padding-right: 10px;
     cursor: pointer;
     font-size: x-large;
 }
 
-footer .follow i:hover{
+footer .follow .socail:hover{
     color: #222;
 }
 
@@ -74,7 +74,6 @@ footer .install .row img{
 }
 
 footer .install img{
-    margin: 7px 0 10px 0;
     width: 290px;
     height: 140px;
 }

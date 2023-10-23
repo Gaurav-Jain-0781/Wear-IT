@@ -1,8 +1,8 @@
 import React from 'react'
-import { FeatureProducts } from './Data'
+import { FeatureProducts, Products } from './Data'
 import ProductList from './Product-List'
 
-const Product = () => {
+const FeatureProduct = () => {
   return (
     <section id='product'>
         <h2>Featured Products</h2>
@@ -16,6 +16,18 @@ const Product = () => {
   )
 }
 
+export const Product = () => {
+  return (
+      <section id="product">
+        <h2>Releasing this week</h2>
+        <p>Sneakers that suit you!</p>
+        <div className="product_container">
+          {Products.map((product) => {
+            return <ProductList key={product.id} product={product}/>
+          })}
+        </div>
+    </section>
+  )
+}
 
-
-export default Product
+export default FeatureProduct
