@@ -1,9 +1,10 @@
 import React from 'react'
-import './index_hero.css'
+import backgroundImage from '../../images/people/pp3.png'
+import buttonImage from '../../images/shop_now.jpg'
 
 const Hero = () => {
   return (
-    <section id='hero'>
+    <section id='hero' style={{backgroundImage: `url(${backgroundImage})`}}>
       <h4>
             Real-time-offers
         </h4>
@@ -16,7 +17,7 @@ const Hero = () => {
         <p>
             Save more with coupons and up to 70% off
         </p>
-        <button>
+        <button style={{backgroundImage: `url(${buttonImage})`}}>
             Shop Now
         </button>
     </section>

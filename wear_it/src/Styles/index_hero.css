@@ -1,6 +1,5 @@
 /* Hero Section*/
 #hero{
-    background-image: url("images/s9.jpeg");
     height: 90vh;
     width: 100%;
     background-position: top 75% right 0;
@@ -34,7 +33,6 @@
 }
 
 #hero button{
-    background-image: url("images/shop_now.jpg");
     background-color: transparent;
     color: whitesmoke;
     background-size: cover;

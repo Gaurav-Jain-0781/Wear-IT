@@ -148,11 +148,15 @@ button.normal{
         display: flex;
         align-items: center;
     }
-    #mobile i{
+    .slider{
         color: #17252A;
         font-size: x-large;
-        padding-right: 40px;
-        padding-left: 15px;
+        padding-right: 30px;
+        padding-left: 25px;
+    }
+    .cart{
+        color: #17252A;
+        font-size: x-large;
     }
     #navbar.active{
         right: 0px;
