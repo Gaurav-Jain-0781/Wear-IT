@@ -1,8 +1,9 @@
 import React from 'react'
 import Home from './Pages/Home'
+import Shop from './Pages/Shop'
 
 const App = () => {
-  return <Home/>
+  return <Shop/>
 }
 
 export default App 
