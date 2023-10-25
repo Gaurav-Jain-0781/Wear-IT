@@ -222,6 +222,12 @@
     margin-right: 10px;
 }
 
+#pagination .active{
+    border: 2px solid;
+    color: black;
+    background-color: white;
+}
+
 /* Media Query*/
 @media (max-width:850px){
     #page-header h2{
