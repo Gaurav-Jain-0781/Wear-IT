@@ -1,6 +1,5 @@
 import React from 'react'
-import Header from '../Components/Header/Header'
-import PageHeader from '../Components/Shop/Page-Header'
+import Header, { PageHeader } from '../Components/Header/Header'
 import Product from '../Components/Shop/Product'
 import Footer from '../Components/Footer/Footer'
 
@@ -8,13 +7,18 @@ import Footer from '../Components/Footer/Footer'
 import '../Styles/shop_page.css'
 
 const Shop = () => {
-  return (
-    <div>
+  const pageHeader = {
+    text : 'sneakerhead', 
+    desc : 'Save more with coupons and up to 70% off',
+    sectionclass : ''
+  }
+  
+  return (<>
       <Header/>
-      <PageHeader/>
+      <PageHeader pageheader={pageHeader}/>
       <Product/>
       <Footer/>
-    </div>
+    </>
   )
 }
 

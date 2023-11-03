@@ -1,9 +1,10 @@
 import React from 'react'
 import Home from './Pages/Home'
 import Shop from './Pages/Shop'
+import Forum from './Pages/Forum'
 
 const App = () => {
-  return <Shop/>
+  return <Forum/>
 }
 
 export default App 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from './logo.png'
 import { FaCartPlus, FaArrowLeft, FaBars } from 'react-icons/fa'
-import { links } from './data'
+import { links } from './Data'
 
 const Header = () => {
     const [slider, setSlider] = useState(false);
@@ -27,6 +27,14 @@ const Header = () => {
         </div>
     </section>
   )
+}
+
+export const PageHeader = ({pageheader}) => {
+    const {text, desc, sectionclass} = pageheader
+    return <section id="page-header" className={sectionclass}>
+        <h2>{text}</h2>
+        <p>{desc}</p>
+    </section>
 }
 
 export default Header

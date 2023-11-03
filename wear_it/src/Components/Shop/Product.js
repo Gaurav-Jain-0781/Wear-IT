@@ -10,6 +10,13 @@ const Product = () => {
   const endIndex = startIndex + productsPerPage;
 
   useEffect(() => {    
+    if(page > Math.ceil(Products.length / productsPerPage)){
+      setPage(1)
+    }
+    if(page < 1){
+      setPage(Math.ceil(Products.length / productsPerPage))
+    }
+
     const buttons = document.querySelectorAll('#pagination button')
 
     buttons.forEach((button) => {
