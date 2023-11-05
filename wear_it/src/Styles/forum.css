@@ -10,7 +10,7 @@
 }
 
 #forum{
-    padding: 65px 100px 0px 100px;
+    padding: 25px 100px 0px 100px;
 }
 
 #forum .forum-box {
@@ -23,8 +23,8 @@
 } 
 
 #forum .forum-box .people-img{
-    width: 38%;
-    height: 530px;
+    width: 26%;
+    height: 22rem;
     box-shadow: 2px 2px 15px 5px slategrey;
     border-radius: 10px;
     align-items: center;
@@ -47,8 +47,8 @@
 }
 
 #forum img{
-    width: 92%;
-    height: 500px;
+    width: 91%;
+    height: 325px;
     background-size: cover;
     border-radius: 20px;
 }
@@ -93,16 +93,25 @@
 }
 
 #forum .people-des p{
-    font-size: 20px;
+    font-size: 18px;
     font-family: monospace;
     font-weight: 700;
     line-height: 25px;
 }
 
-#forum .people-des h1{
-    font-size: 50px;
+#forum .people-des button{
+    width: 30%;
+    height: 3rem;
+    border: 0px solid white;
+    outline: none;
+    font-size: 16px;
     font-weight: 700;
-    color: #3AAFA9;
+    color: #fff;
+    background-color: black
+}
+
+#forum .people-des button:hover{
+    cursor: pointer;
 }
 
 @media (max-width:850px) {

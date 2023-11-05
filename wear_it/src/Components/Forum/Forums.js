@@ -1,28 +1,39 @@
-import React from 'react'
-import {People} from './Data'
+import React, { useState } from 'react'
+import { people } from './Data'
 
 // importing Style Sheet for Forum Page
 import '../../Styles/forum.css'
 
 const Forums = () => {
-  return (
+    const [reading, setReading] = useState(false);
+
+    const handleClick = (id) =>{
+        setReading(!reading)
+        const peoples = document.querySelectorAll(".forum-box .people-des p")
+        
+        peoples.forEach((item) => {
+            if(item.id === id){
+                console.log(item.id);
+                const selectedPerson = people.find((person) => person.id === id).text
+                item.innerHTML = reading ? selectedPerson.text : selectedPerson.text.substring(0, 200) + "..."
+            }
+        })
+    }
+
+    return (
     <section id="forum">
-        <div className="forum-box">
-            <div className="people-img">
-                <img src="../images/people/pp2.png"/>
+        {people.map((person) => {
+            return <div key={person.id} className="forum-box">
+                <div className="people-img">
+                    <img src={person.url} alt={person.name.toLowerCase()}/>
+                </div>
+                <div className="people-des">
+                    <h4>#{person.name}</h4>
+                    <p>{reading ? person.text : person.text.substring(0, 200) + "..."}</p>
+                    <button onClick={() => handleClick(person.id)}>{reading ? 'Collapse' : 'Continue Reading'}</button>
+                </div>
             </div>
-            <div className="people-des">
-                <h4>#ATHIYA SHETTY</h4>
-                <p>Athiya has constantly reset the bar when it comes to her fashion choices.
-                Athiya is spotted a many of times wearing sneakers with her suits and tops.
-                Shetty has also been seen pairing sneakers with her husband 
-                K L Rahul on numerous occcasions and public appearences. 
-                She owns and maintains a great passion for sneakers. 
-            </p>
-                <h1>27/03</h1>
-                <a href="#">CONTINUE READING</a>
-            </div>
-        </div>
+        })}
     </section>
   )
 }
