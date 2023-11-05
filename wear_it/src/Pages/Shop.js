@@ -8,7 +8,7 @@ import '../Styles/shop_page.css'
 
 const Shop = () => {
   const pageHeader = {
-    text : 'sneakerhead', 
+    text : '#sneakerhead', 
     desc : 'Save more with coupons and up to 70% off',
     sectionclass : ''
   }

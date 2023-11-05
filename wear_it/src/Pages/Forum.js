@@ -1,6 +1,7 @@
 import React from 'react'
 import Header, { PageHeader } from '../Components/Header/Header'
 import Forums from '../Components/Forum/Forums'
+import Footer from '../Components/Footer/Footer'
 
 const Forum = () => {
   const pageheader = {
@@ -13,6 +14,7 @@ const Forum = () => {
         <Header/>
         <PageHeader pageheader={pageheader}/>
         <Forums/>
+        <Footer/>
     </>
   )
 }
