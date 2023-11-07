@@ -1,9 +1,58 @@
 #cart{
     overflow-x: auto;
-    margin: 60px 85px;
+    margin: 30px 85px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#cart .shopnow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cart .shopnow h2{
+    font-size: 28px;
+    align-items: center;
+    font-family: "Sono";
+    color: #3AAFA9;
+}
+
+#cart .shopnow button {
+    margin: 10px;
+    font-family: "Comfortaa";
+    font-size: 18px;
+    color: #e1e1e1;
+    align-items: center;
+}
+
+#cart .shopnow button:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+#cart .shopnow button a{
+    color: #000;
+    text-decoration: none;
+}
+
+#cart .shopnow button a:hover{
+    color: #FEFFFF;
+}
+
+#cart h1{
+    font-size: 3rem;
+    font-family: "Roboto";
+    color: #3AAFA9;
+    margin: 1rem;
+}
+
+#cart h1 svg {
+    font-size: x-large;
+    color: black;
 }
 
 #cart table{
@@ -77,7 +126,7 @@
     font-family: cursive;
 }
 
-#cart table tbody tr i{
+#cart table tbody tr button{
     color: black;
     font-size: 16px;
 }

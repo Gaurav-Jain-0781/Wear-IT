@@ -4,7 +4,7 @@ import Hero from '../Components/Home/Hero'
 import Feature from '../Components/Home/Feature'
 import FeatureProduct, { Product } from '../Components/Home/Product'
 import Banner, { Banner2 } from '../Components/Home/Banner'
-import Footer from '../Components/Footer/Footer'
+import Footer, { Notifications } from '../Components/Footer/Footer'
 
 //importing Home Page CSS
 import '../Styles/style.css'
@@ -23,6 +23,7 @@ const Home = () => {
     <Banner/>
     <Product/>
     <Banner2/>
+    <Notifications/>
     <Footer/>
   </>
 }

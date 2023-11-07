@@ -1,6 +1,6 @@
 import React from 'react'
 import Contact, { Video, Forms } from '../Components/About/Contact'
-import Footer from '../Components/Footer/Footer'
+import Footer, { Notifications } from '../Components/Footer/Footer'
 import Header, { PageHeader } from '../Components/Header/Header'
 
 import '../Styles/about.css'
@@ -18,6 +18,7 @@ const About = () => {
         <Video/>
         <Contact/>
         <Forms/>
+        <Notifications/>
         <Footer/>
     </>
   )

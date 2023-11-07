@@ -5,7 +5,7 @@ import play_store from '../../images/pay/play.jpg'
 import payment_gateway from '../../images/pay/payment gateways.jpg'
 import { Socails, About, Account } from './data'
 
-const Notification = () => {
+export const Notifications = () => {
     return (
     <section id="notifications">
         <div className="notification_text">
@@ -21,7 +21,6 @@ const Notification = () => {
 
 const Footer = () => {
   return (<>
-    <Notification/>
     <footer>
         <div className="col">
             <img src={logo} alt="Find Your Kicks"/>

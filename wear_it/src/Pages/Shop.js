@@ -1,7 +1,7 @@
 import React from 'react'
 import Header, { PageHeader } from '../Components/Header/Header'
 import Product from '../Components/Shop/Product'
-import Footer from '../Components/Footer/Footer'
+import Footer, { Notifications } from '../Components/Footer/Footer'
 
 // Style Sheet for Shop Page
 import '../Styles/shop_page.css'
@@ -17,6 +17,7 @@ const Shop = () => {
       <Header/>
       <PageHeader pageheader={pageHeader}/>
       <Product/>
+      <Notifications/>
       <Footer/>
     </>
   )

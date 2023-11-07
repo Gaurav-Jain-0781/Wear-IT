@@ -60,7 +60,7 @@ export const Forms = () =>{
             {founders.map((founder) => {
                 return (
                     <div key={founder.id} className="contact-person">
-                        <img src={founder.url}/>
+                        <img src={founder.url} alt={founder.name}/>
                         <div className="des">
                             <h3>{founder.name}</h3>
                             <p>Founder</p>
