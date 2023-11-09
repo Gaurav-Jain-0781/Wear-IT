@@ -142,7 +142,7 @@ button.normal{
     }
     #navbar li a{
         color: aliceblue;
-        font-size: 28px;
+        font-size: 18px;
     }
     #mobile{
         display: flex;
@@ -162,7 +162,7 @@ button.normal{
         right: 0px;
     }
     #close{
-        font-size: 35px;
+        font-size: 24px;
         position: absolute;
         top: 30px;
         left: 40px;
@@ -179,7 +179,10 @@ button.normal{
     #header{
         padding: 10px 5px;
     }
+    #navbar{
+        padding-top: 50px;
+    }
     #navbar.active{
-        right: -130px;
+        right: -160px;
     }
 }

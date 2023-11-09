@@ -6,12 +6,24 @@ import { FaShoppingCart } from 'react-icons/fa'
 
 const Cart = () => {
     const [items, setItems] = useState(cartItems);
-    const handelChange = () => {
-
+    const [quantities, setQuantities] = useState({})
+    const handelChange = (id, quantity) => {
+        if(quantity == 0){
+            handelClick(id)
+        }
+        setQuantities({...quantities, [id] : quantity || 1})
+        console.log(quantities);
     }
 
     const handelClick = (id) => {
         setItems(items.filter((item) => item.id !== id))
+    }
+
+    const total = (id) => {
+        const selectedItem = items.find((item) => item.id === id)
+        const price = selectedItem.price
+        const quantity = quantities[id]
+        return price * quantity
     }
 
   return (
@@ -36,9 +48,9 @@ const Cart = () => {
                             <td> <button onClick={() => handelClick(item.id)}> <FaXmark/> </button> </td>
                             <td><img src={item.url} alt={item.name}/></td>
                             <td>{item.name}</td>
-                            <td className="price">{item.price}</td>
-                            <td><input className="quantity" type="number" value="1"/></td>
-                            <td className="total">Rs. 0</td>
+                            <td className="price">Rs {item.price}</td>
+                            <td><input className="quantity" type="number" value={quantities[item.id] || 1} onChange={(e) => handelChange(item.id, e.target.value)}/></td>
+                            <td className="total">Rs. {total(item.id)}</td>
                         </tr>
                     })}
                 </tbody>
