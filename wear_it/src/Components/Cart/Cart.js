@@ -28,9 +28,9 @@ const Cart = () => {
 
   return (
     <section id="cart">
-        <h1>My Cart <FaShoppingCart/></h1>
         {items.length === 0 ? 
-            <ShopNow/> :
+            <ShopNow/> :<>
+            <h1>My Cart <FaShoppingCart/></h1>
             <table>
                 <thead>
                     <tr>
@@ -55,6 +55,7 @@ const Cart = () => {
                     })}
                 </tbody>
             </table>
+            </>
         }
     </section>
   )
