@@ -3,6 +3,8 @@ import logo from './logo.png'
 import { FaCartPlus, FaArrowLeft, FaBars } from 'react-icons/fa'
 import { links } from './Data'
 
+import {Link} from 'react-router-dom'
+
 const Header = () => {
     const [slider, setSlider] = useState(false);
 
@@ -12,14 +14,14 @@ const Header = () => {
         <div>
             <ul id="navbar" className={slider ? 'active' : null} >
                 {links.map((link) => {
-                    return <li key={link.id}><a href={link.url}>{link.text}</a></li>
+                    return <li key={link.id}><Link to={link.url}>{link.text}</Link></li>
                 })}
                 <a href="#" id="close" onClick={() => setSlider(!slider)}><FaArrowLeft/></a>
             </ul>
         </div>
         <div id="mobile">
             <div className='cart'>
-                <a href="html/cart.html"><FaCartPlus/></a>
+                <Link to='/cart'><FaCartPlus/></Link>
             </div>
             <div className='slider'>
                 <FaBars onClick={() => setSlider(!slider)}/>

@@ -25,7 +25,7 @@ export const About = [
     {
         id : 1, 
         text: 'About Us', 
-        url: ''
+        url: '/about'
     },
     {
         id : 2, 
@@ -58,7 +58,7 @@ export const Account = [
     {
         id: 2, 
         text: 'View Cart',
-        url: ''
+        url: '/cart'
     },
     {
         id: 3, 

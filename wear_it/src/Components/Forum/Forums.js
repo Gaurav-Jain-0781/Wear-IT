@@ -13,7 +13,6 @@ const Forums = () => {
         
         peoples.forEach((item) => {
             if(item.id === id){
-                console.log(item.id);
                 const selectedPerson = people.find((person) => person.id === id).text
                 item.innerHTML = reading ? selectedPerson.text : selectedPerson.text.substring(0, 200) + "..."
             }
