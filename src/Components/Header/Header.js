@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from './logo.png'
 import { FaCartPlus, FaArrowLeft, FaBars } from 'react-icons/fa'
-import { links } from './Data'
+import { links } from './data'
 
 import {Link} from 'react-router-dom'
 
